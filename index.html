@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória - Gatinhos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <main class="container">
+        <header class="cabecalho">
+            <h1>🐱 Jogo da Memória</h1>
+            <p>Encontre os pares de gatinhos!</p>
+        </header>
+        <section class="informacoes">
+            <div class="contador">
+                <span>Jogadas</span>
+                <strong id="jogadas">0</strong>
+            </div>
+            <div class="contador">
+                <span>Pares encontrados</span>
+                <strong id="pares">0 / 12</strong>
+            </div>
+        </section>
+        <section id="tabuleiro" class="tabuleiro">
+            <!-- As cartas serão criadas pelo JavaScript -->
+        </section>
+        <div id="mensagem" class="mensagem"></div>
+        <button id="reiniciar" class="botao-reiniciar">
+            ↻ Reiniciar partida
+        </button>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
